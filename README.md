@@ -49,8 +49,37 @@ sendMessage(message) - This function/method would allow external clients to send
 + Firebase API: You also mentioned that you will be using Firebase for storing chats and authentication. Firebase is a real-time database platform that allows developers to store and sync data in real-time across multiple clients. You can use the Firebase API in your project to perform CRUD (create, read, update, delete) operations on your Firebase database, such as creating new users or storing chat messages.
 + Google Cloud Speech-to-Text API: You also mentioned that you want to use voice recognition to send chat prompts to your chatbot. You can use the Google Cloud Speech-to-Text API to convert audio input into text that can be sent to your chatbot
 
+### Environment Setup
+To run the TALKGPT Chatbot project locally, ensure you have the following software and dependencies installed:
 
++ Node.js (version 14 or higher): Install Node.js from the official website here.
 
++ NPM (version 6 or higher): NPM is automatically installed with Node.js.
 
++ OpenAI API credentials: Sign up for an account on the OpenAI website and obtain your API credentials.
 
++ Firebase account: Create a Firebase account at https://firebase.google.com and set up a new project. Note down the Firebase project ID and the necessary credentials.
 
++ Google Cloud Platform (GCP) account: Create a GCP account at https://cloud.google.com and set up a new project. Enable the Google Cloud Speech-to-Text API and obtain the necessary API credentials.
+
+### Configuration
+Create a .env file in the root directory of the project and provide the following environment variables:
+REACT_APP_OPENAI_API_KEY=your-openai-api-key
+REACT_APP_FIREBASE_PROJECT_ID=your-firebase-project-id
+REACT_APP_FIREBASE_API_KEY=your-firebase-api-key
+REACT_APP_GCP_PROJECT_ID=your-gcp-project-id
+REACT_APP_GCP_API_KEY=your-gcp-api-key
+Replace the placeholders (your-openai-api-key, your-firebase-project-id, your-firebase-api-key, your-gcp-project-id, your-gcp-api-key) with your actual API keys and project IDs.
+
+### Installation
+Clone the repository:
+git clone (https://github.com/FionaG26/TALKGPTAI)
+Navigate to the project directory:
+Install the dependencies:
+npm install
+Running the Project
+Start the development server:
+npm start
+The project will be accessible at http://localhost:3000.
+
+Open your web browser and visit the above URL to access the TALKGPT Chatbot.
