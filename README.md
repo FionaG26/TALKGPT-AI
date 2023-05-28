@@ -25,3 +25,8 @@ To mitigate technical risks, the project team employs thorough testing, continuo
 
 ### Architecture
 The following diagram illustrates the architecture of the TALKGPT Chatbot system:
+![Architecture](https://app.diagrams.net/#G1ZKoj5AqXnH3_553dD2doE0ZI4Suz-j9g)
+
+
+
+
