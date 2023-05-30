@@ -62,6 +62,31 @@ To run the TALKGPT Chatbot project locally, ensure you have the following softwa
 
 + Google Cloud Platform (GCP) account: Create a GCP account at https://cloud.google.com and set up a new project. Enable the Google Cloud Speech-to-Text API and obtain the necessary API credentials.
 
+### Dependencies
+#### Frontend Dependencies:
+
+1. React: JavaScript library for building user interfaces.
+2. Next.js: Framework for server-rendered React applications.
+3. React SpeechRecognition: Library for integrating speech recognition capabilities into React components.
+4. Bootstrap: CSS framework for creating responsive and visually appealing UI components.
+5. Axios: HTTP client library for making API requests from the frontend.
+6. React Router: Library for handling client-side routing in React applications.
+
+#### Backend Dependencies:
+
+1.Node.js: JavaScript runtime for building server-side applications.
+2.Express.js: Web application framework for Node.js.
+3.OpenAI API: Library or package for interacting with the OpenAI API to access ChatGPT capabilities.
+4.PyAudio: Library for audio input/output functionality required for voice recognition integration.
+5.Dialogflow: Platform for building natural language understanding systems.
+6.Firebase: Platform for real-time database updates, authentication, and storage.
+
+#### Testing Dependencies:
+
+1.Jest: JavaScript testing framework for unit testing.
+2.Supertest: Library for testing HTTP endpoints.
+3.React Testing Library: Testing utilities for React component
+
 ### Configuration
 Create a .env file in the root directory of the project and provide the following environment variables:
 REACT_APP_OPENAI_API_KEY=your-openai-api-key
@@ -80,6 +105,6 @@ npm install
 Running the Project
 Start the development server:
 npm start
-The project will be accessible at http://localhost:3000.
+The project will be accessible at http://localhost:5001.
 
 Open your web browser and visit the above URL to access the TALKGPT Chatbot.
