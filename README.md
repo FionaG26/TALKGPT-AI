@@ -17,18 +17,15 @@ The Minimum Viable Product (MVP) for the TALKGPT Chatbot project includes the fo
 - The following platforms, tools, and libraries are utilized:
 
 ### OpenAI API for NLP capabilities
-PyAudio and React SpeechRecognition for voice recognition
-Google Cloud Platform (GCP) for hosting
-Dialogflow for NLP system integration
-Firebase (firebaseDB, Auth) for real-time database updates
+1.PyAudio and React SpeechRecognition for voice recognition
+2.Google Cloud Platform (GCP) for hosting
+3.Dialogflow for NLP system integration
+4.Firebase (firebaseDB, Auth) for real-time database updates
 To mitigate technical risks, the project team employs thorough testing, continuous integration, and backup servers. For non-technical risks, effective marketing, transparent privacy policies, and regular user feedback are incorporated.
 
 ### Architecture
 The following diagram illustrates the architecture of the TALKGPT Chatbot system:
 ![Architechture]([image-url] (https://drive.google.com/file/d/1ejOXhwYBWqewyU4FYYjtXDORvxtu8yJU/view?usp=share_link)
-
-
-
 
 ### APIs and Methods
  List of API routes to use for   web client to communicate with  web server
@@ -75,10 +72,15 @@ To run the TALKGPT Chatbot project locally, ensure you have the following softwa
 #### Backend Dependencies:
 
 1.Node.js: JavaScript runtime for building server-side applications.
+
 2.Express.js: Web application framework for Node.js.
+
 3.OpenAI API: Library or package for interacting with the OpenAI API to access ChatGPT capabilities.
+
 4.PyAudio: Library for audio input/output functionality required for voice recognition integration.
+
 5.Dialogflow: Platform for building natural language understanding systems.
+
 6.Firebase: Platform for real-time database updates, authentication, and storage.
 
 #### Testing Dependencies:
