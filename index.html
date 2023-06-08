@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TALKGPT</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <img src="logo.png" alt="TALKGPT Logo" class="logo">  
+  <div class="center-column">
+    <p>Hello! How can I assist you today?</p>
+  </div>
+   <div id="chat-container">
+      <div id="message-container"></div>
+      <div id="input-container">
+        <input type="text" id="user-input" placeholder="Type your message...">
+        <button id="send-btn">Send</button>
+        <button id="voice-btn">Start Voice Recognition</button>
+      </div>
+    </div>
+  
+  <div id="chat-history-container">
+    <button id="show-history-btn">Show Chat History</button>
+    <button id="clear-history-btn">Clear History</button>
+    <div id="chat-history"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
