@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
 import openai
+import speech_recognition as sr
 
 app = Flask(__name__)
 
