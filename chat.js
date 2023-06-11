@@ -1,4 +1,3 @@
-import SpeechRecognition from "react-speech-recognition";
 document.addEventListener("DOMContentLoaded", function() {
   // Code to be executed after the HTML elements are loaded
   
