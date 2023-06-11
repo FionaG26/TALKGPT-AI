@@ -20,7 +20,6 @@ def chat():
         temperature=0.8,
         n=1,
         stop=None,
-        temperature=0.8,
         top_p=None,
         frequency_penalty=None,
         presence_penalty=None
