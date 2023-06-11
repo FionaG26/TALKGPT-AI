@@ -4,8 +4,13 @@ import speech_recognition as sr
 
 app = Flask(__name__)
 
+# Retrieve your OpenAI API key from an environment variable
+api_key = os.environ.get("OPENAI_API_KEY")
+if api_key is None:
+    raise ValueError("OpenAI API key not found in environment variables.")
+
 # Set your OpenAI API key
-openai.api_key = "OPENAI_API_KEY"
+openai.api_key = api_key
 
 # Define a route for the chat endpoint
 @app.route("/chat", methods=["POST"])
