@@ -1,6 +1,7 @@
     .body {
       font-family: "Merriweather", serif;
       background-color: #141e30;
+      max-height: fit-content;
       margin: 0;
       padding: 0;
     }
