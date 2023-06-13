@@ -6,13 +6,12 @@ body {
   max-width: fit-content;
 }
 
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: #333;
-}
+ .header-container {
+   display: flex;
+   justify-content: space-between;
+   background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7));
+   align-items: center;
+    }
 
 nav ul {
   list-style-type: none;
