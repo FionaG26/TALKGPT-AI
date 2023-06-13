@@ -10,6 +10,7 @@ body {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   background-size: cover;
 }
 
 nav ul {
