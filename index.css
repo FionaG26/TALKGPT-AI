@@ -2,6 +2,8 @@ body {
   font-family: "Merriweather", serif;
   background-color: #141e30;
   margin: 0;
+  max-height: fit-content;
+  max-width: fit-content;
 }
 
 .header-container {
