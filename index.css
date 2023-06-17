@@ -1,11 +1,12 @@
 body {
-    background-image: url(Cover\ photo.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0, 0.3)) ,url(Cover\ photo.jpg);
     background-size: cover;
     background-position: center;
     font-family: "Merriweather", serif;
     margin: 0;
-    max-height: fit-content;
-    max-width: fit-content;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
   }
   
    .header-container {
@@ -16,7 +17,7 @@ body {
   
   nav ul {
     list-style-type: none;
-    margin: 0;
+    margin-right: 30px;
     padding: 0;
   }
   
@@ -67,6 +68,7 @@ body {
   .feature-section {
     background-position: center;
     display: flex;
+    align-items: center;
     justify-content: space-around;
     padding: 50px;
     font-family: "Merriweather", serif; 
@@ -168,4 +170,13 @@ body {
     color: #fff;
     padding: 10px;
     text-align: center;
+  }
+
+
+  @media screen and (max-width:728px) {
+    .feature-section {
+      display: flex;
+       flex-direction: column;
+       
+      }
   }
